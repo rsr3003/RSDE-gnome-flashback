@@ -1,22 +1,22 @@
-Source: regolith-gnome-flashback
+Source: RSDE-gnome-flashback
 Section: x11
 Priority: optional
 Maintainer: Ken Gilmer <kgilmer@gmail.com>
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.1.2
-Homepage: https://github.com/regolith-linux/regolith-desktop
-Vcs-Git: https://github.com/regolith-linux/regolith-desktop.git
+Homepage: https://github.com/RSDE-linux/RSDE-desktop
+Vcs-Git: https://github.com/RSDE-linux/RSDE-desktop.git
 
-Package: regolith-gnome-flashback
+Package: RSDE-gnome-flashback
 Architecture: any
 Depends: ${misc:Depends},
     coreutils,
     dbus,
     gnome-flashback,
     gnome-session-bin,
-    regolith-i3-gaps-config,
-    regolith-styles,
+    RSDE-i3-gaps-config,
+    RSDE-styles,
     x11-xserver-utils,
     xrescat
 Conflicts: session-shortcuts
-Description: Regolith customized gnome-flashback session
+Description: RSDE customized gnome-flashback session
